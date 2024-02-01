@@ -26,6 +26,7 @@ def main():
     print("Listening on port " + str(port))
 
     server.serve_forever()
+    print("here")
 
 
 if __name__ == "__main__":
